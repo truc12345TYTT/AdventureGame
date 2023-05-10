@@ -4,7 +4,7 @@
 <h2> Thể loại: Adventure </h2>
 
 <h3> 👨🏻‍💻 Nguồn đã tham khảo </h3>
-- 🌐 &nbsp; Youtube: https://www.youtube.com/playlist?list=PL-K0viiuJ2RctP5nlJlqmHGeh66-GOZR_ (Video 1 - 12)
+- 🌐 &nbsp; Youtube: https://www.youtube.com/playlist?list=PL-K0viiuJ2RctP5nlJlqmHGeh66-GOZR_ (Video 1 - 12) /
 - 🌐 &nbsp; ChatGPT: 1 số cách chia file cho hợp lý
 - 💻 &nbsp; Lazyfoo
 
