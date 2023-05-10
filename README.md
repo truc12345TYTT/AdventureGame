@@ -49,4 +49,6 @@
 
 - &nbsp; Game còn khá nhiều Bug, chưa có enemy như quái vật,.................................. Chưa có xử lý thằng thua, check point, menu pause,...............
 - &nbsp; Có thể tiếp tục để hoàn thiện game hơn <3 
+
+
 <span style="color: green">Byeeeeeeeeeeeeeeeeeeeeeeee</span>
