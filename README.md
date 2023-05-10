@@ -1,7 +1,7 @@
 # AdventureGame
 <h2> Bài tập lớn môn LTNC Lớp 22 N3 của Trúc &lt;3 👋 </h2>
 
-<h2> *Thể loại: Adventure* </h2>
+<h2> Thể loại: Adventure </h2>
 
 <h3> 👨🏻‍💻 Nguồn đã tham khảo </h3>
 
