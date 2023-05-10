@@ -1,0 +1,238 @@
+# depslib dependency file v1.0
+1683714619 source:c:\users\truc3\onedrive\máy tính\adventure\main.cpp
+	"Game.h"
+	"Timer.h"
+	"Menu.h"
+	"Inputs.h"
+	<iostream>
+
+1683714393 c:\users\truc3\onedrive\máy tính\adventure\src\core\game.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1683717053 source:c:\users\truc3\onedrive\máy tính\adventure\src\core\game.cpp
+	"Game.h"
+	"TextureManager.h"
+	"MainCharacter.h"
+	"Inputs.h"
+	"Timer.h"
+	"GameMap.h"
+	"Camera.h"
+	<iostream>
+
+1683481236 c:\users\truc3\onedrive\máy tính\adventure\src\textures\texturemanager.h
+	<string>
+	<SDL.h>
+	<map>
+
+1683618106 source:c:\users\truc3\onedrive\máy tính\adventure\src\textures\texturemanager.cpp
+	"TextureManager.h"
+	<SDL_image.h>
+	"Game.h"
+	"Camera.h"
+	"Vector2D.h"
+	<iostream>
+
+1683357559 c:\users\truc3\onedrive\máy tính\adventure\src\physics\vector2d.h
+	<iostream>
+	<string>
+
+1683374585 c:\users\truc3\onedrive\máy tính\adventure\src\physics\transform.h
+	<iostream>
+	<string>
+	"Vector2D.h"
+
+1683716395 c:\users\truc3\onedrive\máy tính\adventure\src\sprite\maincharacter.h
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+	"Point.h"
+	"Inputs.h"
+	<SDL_mixer.h>
+	<SDL.h>
+
+1683625543 c:\users\truc3\onedrive\máy tính\adventure\src\sprite\character.h
+	"GameObject.h"
+	"Vector2D.h"
+	"Point.h"
+	"Camera.h"
+
+1683486996 c:\users\truc3\onedrive\máy tính\adventure\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"Point.h"
+	<SDL.h>
+
+1683365945 c:\users\truc3\onedrive\máy tính\adventure\src\object\iobject.h
+
+1683714045 source:c:\users\truc3\onedrive\máy tính\adventure\src\sprite\maincharacter.cpp
+	"MainCharacter.h"
+	"TextureManager.h"
+	"Inputs.h"
+	"Camera.h"
+	<iostream>
+
+1683373267 source:c:\users\truc3\onedrive\máy tính\adventure\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1683373954 c:\users\truc3\onedrive\máy tính\adventure\animation\animation.h
+	"SDL.h"
+	<string>
+
+1683626824 c:\users\truc3\onedrive\máy tính\adventure\src\physics\rigidbody.h
+	"Vector2D.h"
+	<string>
+
+1683566900 c:\users\truc3\onedrive\máy tính\adventure\src\events\inputs.h
+	<SDL.h>
+	<string>
+
+1683566872 source:c:\users\truc3\onedrive\máy tính\adventure\src\events\inputs.cpp
+	"Inputs.h"
+	"Game.h"
+	<iostream>
+
+1683393321 source:c:\users\truc3\onedrive\máy tính\adventure\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1683393321 c:\users\truc3\onedrive\máy tính\adventure\src\animation\animation.h
+	"SDL.h"
+	<string>
+
+1683393977 source:c:\users\truc3\onedrive\máy tính\adventure\src\timer\timer.cpp
+	"Timer.h"
+	<SDL.h>
+
+1683703644 c:\users\truc3\onedrive\máy tính\adventure\src\timer\timer.h
+
+1682487930 source:c:\users\truc3\onedrive\máy tính\adventure\src\map\mapparser.cpp
+	"MapParser.h"
+	<sstream>
+	<iostream>
+
+1683395510 c:\users\truc3\onedrive\máy tính\adventure\src\map\mapparser.h
+	<map>
+	<string>
+	"GameMap.h"
+	"TileLayer.h"
+	"tinyxml.h"
+
+1683395510 c:\users\truc3\onedrive\máy tính\adventure\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1682410499 c:\users\truc3\onedrive\máy tính\adventure\src\map\layer.h
+
+1682420381 c:\users\truc3\onedrive\máy tính\adventure\src\map\tilelayer.h
+	"Layer.h"
+	<string>
+	<vector>
+
+1305426297 c:\users\truc3\onedrive\máy tính\adventure\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426297 c:\users\truc3\onedrive\máy tính\adventure\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1305426297 source:c:\users\truc3\onedrive\máy tính\adventure\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1305426297 source:c:\users\truc3\onedrive\máy tính\adventure\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426297 source:c:\users\truc3\onedrive\máy tính\adventure\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426297 source:c:\users\truc3\onedrive\máy tính\adventure\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1683395055 source:c:\users\truc3\onedrive\máy tính\adventure\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1683523181 source:c:\users\truc3\onedrive\máy tính\adventure\maps\readmap.cpp
+	"ReadMap.h"
+	"TextureManager.h"
+	<iostream>
+
+1683523472 c:\users\truc3\onedrive\máy tính\adventure\maps\readmap.h
+	<string>
+	<fstream>
+	<vector>
+
+1683618474 source:c:\users\truc3\onedrive\máy tính\adventure\src\camera\camera.cpp
+	"Camera.h"
+
+1683618404 c:\users\truc3\onedrive\máy tính\adventure\src\camera\camera.h
+	<SDL.h>
+	"Point.h"
+	"Vector2D.h"
+
+1683485519 c:\users\truc3\onedrive\máy tính\adventure\src\physics\point.h
+	<string>
+	<iostream>
+
+1683715343 source:c:\users\truc3\onedrive\máy tính\adventure\maps\gamemap.cpp
+	"GameMap.h"
+	"TextureManager.h"
+	<iostream>
+
+1683547040 c:\users\truc3\onedrive\máy tính\adventure\maps\gamemap.h
+	"ReadMap.h"
+	"SDL.h"
+	"Camera.h"
+	"Vector2D.h"
+
+1683617215 source:c:\users\truc3\onedrive\máy tính\adventure\src\sprite\enemy.cpp
+	"Enemy.h"
+
+1683614179 c:\users\truc3\onedrive\máy tính\adventure\src\sprite\enemy.h
+	"SDL.h"
+	"Transform.h"
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+	"TextureManager.h"
+
+1683619560 c:\users\truc3\onedrive\máy tính\adventure\src\sprite\pet.h
+	"Character.h"
+	"Transform.h"
+	"Animation.h"
+	"RigidBody.h"
+	<string>
+
+1683710023 c:\users\truc3\onedrive\máy tính\adventure\src\menu\menu.h
+	<SDL_ttf.h>
+	<string>
+
+1683710120 source:c:\users\truc3\onedrive\máy tính\adventure\src\menu\menu.cpp
+	"Menu.h"
+	"Game.h"
+
+1683716297 source:c:\users\truc3\onedrive\máy tính\adventure\src\sprite\linhtinh.cpp
+	"LinhTinh.h"
+	"TextureManager.h"
+
+1683715886 c:\users\truc3\onedrive\máy tính\adventure\src\sprite\linhtinh.h
+	"Character.h"
+	"Animation.h"
+

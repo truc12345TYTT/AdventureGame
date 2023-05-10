@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Adventure" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Adventure" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="src/Core" />
+					<Add directory="src/Textures" />
+					<Add directory="src/Physics" />
+					<Add directory="src/Object" />
+					<Add directory="src/Sprite" />
+					<Add directory="src/Events" />
+					<Add directory="src/Animation" />
+					<Add directory="src/Timer" />
+					<Add directory="src/Vendor/tinyxml" />
+					<Add directory="src/Map" />
+					<Add directory="Maps" />
+					<Add directory="src/Camera" />
+					<Add directory="src/Menu" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Adventure" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="src/Core" />
+					<Add directory="src/Textures" />
+					<Add directory="src/Physics" />
+					<Add directory="src/Object" />
+					<Add directory="src/Sprite" />
+					<Add directory="Animation" />
+					<Add directory="src/Events" />
+					<Add directory="src/Timer" />
+					<Add directory="Maps" />
+					<Add directory="src/Camera" />
+					<Add directory="src/Menu" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Maps/GameMap.cpp" />
+		<Unit filename="Maps/GameMap.h" />
+		<Unit filename="Maps/ReadMap.cpp" />
+		<Unit filename="Maps/ReadMap.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Animation/Animation.cpp" />
+		<Unit filename="src/Animation/Animation.h" />
+		<Unit filename="src/Camera/Camera.cpp" />
+		<Unit filename="src/Camera/Camera.h" />
+		<Unit filename="src/Core/Game.cpp" />
+		<Unit filename="src/Core/Game.h" />
+		<Unit filename="src/Events/Inputs.cpp" />
+		<Unit filename="src/Events/Inputs.h" />
+		<Unit filename="src/Menu/Menu.cpp" />
+		<Unit filename="src/Menu/Menu.h" />
+		<Unit filename="src/Object/GameObject.h" />
+		<Unit filename="src/Object/IObject.h" />
+		<Unit filename="src/Physics/Point.h" />
+		<Unit filename="src/Physics/RigidBody.h" />
+		<Unit filename="src/Physics/Transform.h" />
+		<Unit filename="src/Physics/Vector2D.h" />
+		<Unit filename="src/Sprite/Character.h" />
+		<Unit filename="src/Sprite/MainCharacter.cpp" />
+		<Unit filename="src/Sprite/MainCharacter.h" />
+		<Unit filename="src/Textures/TextureManager.cpp" />
+		<Unit filename="src/Textures/TextureManager.h" />
+		<Unit filename="src/Timer/Timer.cpp" />
+		<Unit filename="src/Timer/Timer.h" />
+		<Unit filename="src/Vendor/tinyxml/tinystr.cpp" />
+		<Unit filename="src/Vendor/tinyxml/tinystr.h" />
+		<Unit filename="src/Vendor/tinyxml/tinyxml.cpp" />
+		<Unit filename="src/Vendor/tinyxml/tinyxml.h" />
+		<Unit filename="src/Vendor/tinyxml/tinyxmlerror.cpp" />
+		<Unit filename="src/Vendor/tinyxml/tinyxmlparser.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
